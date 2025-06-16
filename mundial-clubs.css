@@ -1,0 +1,282 @@
+body{
+    margin: 0;
+    font-family: 'Cinzel', sans-serif;
+}
+
+footer{
+    margin-top: 60px;
+    border-top: 5px inset rgb(204, 191, 3);
+    text-align: center;
+    color: rgb(204, 191, 3);
+}
+header, footer{
+    width: 99%;
+    height: 100px;
+    background-color: rgb(136, 21, 21);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 5px inset rgb(204, 191, 3);
+}
+header img{
+    margin-left: 30px;
+}
+header h1{
+    color: white;
+    font-size: 50px;
+    font-family: 'Cinzel', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-left: 500px;
+    text-shadow: 3px 2px rgba(204, 191, 3, 0.795);
+}
+header select{
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Cinzel', sans-serif;
+    color: white;
+    text-align: center;
+    background-color: rgb(136, 21, 21);
+    border: 3px solid white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: auto 0;
+    margin-right: 30px;
+}
+header select:focus{
+    outline: none;
+    border: 3px solid rgb(204, 191, 3);
+}
+
+#portada{
+    width: 50%;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 100px auto;
+    margin-bottom: 30px;
+}
+#portada img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    margin: 0 -30px;
+    border: 30px inset rgb(204, 191, 3);
+}
+#portada h2{
+    color: black;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Cinzel', sans-serif;
+    border-top: 3px dashed rgb(204, 191, 3);
+    border-bottom: 3px dashed rgb(204, 191, 3);
+    padding-bottom: 5px;
+}
+
+#ayer, #hoy{
+    width: 70%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+}
+#ayer h3, #hoy h3{
+    font-size: 24px;
+    font-family: 'Cinzel', sans-serif;
+    text-decoration: 2px solid black underline;
+}
+#ayer div, #hoy div{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: space-between;
+}
+#ayer div img, #hoy div img{
+    flex: 1;
+    height: 80%;
+    object-fit: cover;
+    border: 10px inset rgb(204, 191, 3);
+}
+#ayer div h4, #hoy div h4{
+    font-size: 24px;
+    font-family: 'Cinzel', sans-serif;
+    color: black;
+    text-align: center;
+    margin-top: 10px;
+}
+#hoy div h5{
+    font-size: 20px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.grupo-span{
+    width: 50px;
+    height: 30px;
+    background-color: rgb(204, 191, 3);
+    color: black;
+    font-family: 'Cinzel', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+#banner{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(136, 21, 21);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#banner img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grupo{
+    width: 98.5%;
+    height: 400px;
+    display: flex;
+    margin: 20px;
+    border: 2px solid rgb(204, 191, 3);
+    margin-bottom: 60px;
+}
+.grupo h2{
+    flex: 1;
+    height: 10%;
+    border: 5px inset rgb(204, 191, 3);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 0;
+}
+.grupo table{
+    flex: 5;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+.grupo table th{
+    font-weight: normal;
+}
+.matches{
+    flex: 8;
+    display: flex;
+    flex-direction: column;
+}
+.jornada{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 33.33%;
+}
+.jornada h2{
+    border: none;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: 2px solid black underline;
+}
+.jornada partido{
+    background-color: rgb(204, 191, 3);
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -22px;
+    margin-top: -5px;
+}
+.jornada partido:last-of-type{
+    margin-top: -22px;
+}
+.jornada h3{
+    width: 500px;
+    text-align: center;
+    font-size: 16px;
+}
+.jornada img{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+}
+.jornada img:first-child{
+    margin-left: -600px;
+}
+.jornada img:last-child{
+    margin-left: 600px;
+}
+.jornada h4{
+    height: 25px;
+    width: 200px;
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 30px;
+}
+.jornada h5{
+    width: 700px;
+    height: 25px;
+    font-size: 14px;
+    margin-left: 50px;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.plantilla{
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 10px inset black;
+}
+.plantilla equipo{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    text-align: center;
+    border-right: 5px dashed black;
+}
+.plantilla equipo img{
+    width: 150px;
+    height: 160px;
+    margin: 10px auto;
+}
+.plantilla equipo h2{
+    font-size: 40px;
+    margin-top: -10px;
+}
+.plantilla equipo h3{
+    font-size: 16px;
+    margin-top: -10px;
+}
+.plantilla equipo h4{
+    font-size: 30px;
+    margin-top: -15px;
+}
+.plantilla table{
+    border-right: 2px solid black;
+    width: 23%;
+    padding-left: 10px;
+}
+.plantilla table:last-of-type{
+    border-right: none;
+}
+.plantilla table tr td:nth-child(3){
+    text-align: center;
+}
+.plantilla table .portero, .medios, .libre{
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+
+
+
+
+

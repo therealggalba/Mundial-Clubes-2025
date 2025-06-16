@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundial de Clubes 2025</title>
+    <link rel="stylesheet" href="mundial-clubs.css">
+</head>
+<body>
+    <header>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ad/2025_FIFA_Club_World_Cup.svg/1200px-2025_FIFA_Club_World_Cup.svg.png" alt="Logo del Mundial de Clubes 2025">
+        <h1>MUNDIAL CLUBES FIFA 2025</h1>
+        <select name="menu" class="hdr_menu" id="menuSelector">
+            <option value="">- Navegador -</option>
+            <option value="/000 ejercicios//mundial-clubs/mundial-clubs-index.html">MENÚ PRINCIPAL</option>
+            <option value="/000 ejercicios//mundial-clubs/mundial-clubs-grupos.html">FASE DE GRUPOS</option>
+            <option value="/000 ejercicios//mundial-clubs/mundial-clubs-eliminatorias.html">ELIMINATORIAS</option>
+            <option value="/000 ejercicios//mundial-clubs/mundial-clubs-plantillas.html">PLANTILLAS</option>
+        </select>
+        <script>
+            document.getElementById('menuSelector').addEventListener('change', function(){
+                const ruta = this.value;
+                if (ruta){
+                    window.location.href = ruta;
+                }
+            });
+        </script>
+    </header>
+    <main>
+        <section id="portada">
+            <img src="https://img2.rtve.es/i/?w=1600&i=01750019973028.jpg" alt="">
+            <h2><!--TITULO DE LA PORTADA-->El PSG y el Bayern Munich comienzan arrasando</h2>
+        </section>
+        <section id="ayer">
+            <h3>ÚLTIMOS RESULTADOS</h3>
+            <div>
+                <section>
+                    <img src="https://static.independentespanol.com/2025/06/15/22/PSG-ATL%C3%89TICO_18621.jpg" alt="">
+                    <h4>PSG 4 - 0 ATLETICO MADRID</h4>
+                    <span class="grupo-span">GRUPO B</span>
+                </section>    
+                <section>
+                    <img src="https://img.asmedia.epimg.net/resizer/v2/RLE3GUIENQ4FJDCPP2XGD3XG74.jpg?auth=be839a1cac069ada96e5209c4f1caf106a1e94d8ef61560d802ba6833e2b89b5&width=644&height=362&focal=2024%2C756" alt="">
+                    <h4>PALMEIRAS 0 - 0 OPORTO</h4>
+                    <span class="grupo-span">GRUPO A</span>
+                </section>
+                <section>
+                    <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2025/06/16/17500401815016.jpg" alt="">
+                    <h4>BOTAFOGO 2 - 1 SEATTLE SOUNDERS</h4>
+                    <span class="grupo-span">GRUPO B</span>        
+                </section>
+            </div>
+        </section>
+        <banner id="banner">
+            <img src="https://collect.fifa.com/_next/image?url=https%3A%2F%2Fstorage.googleapis.com%2Fprod-fifa-cms-storage%2F060d3f4b-ace6-4d27-9d78-ee4caa7b9876.png&w=3840&q=75" alt="Banner del torneo">
+        </banner>
+        <section id="hoy">
+            <h3>PARTIDOS DE HOY</h3>
+            <div>
+                <section>
+                    <img src="https://image.discovery.indazn.com/ca/v2/ca/image?id=ds8iwm7yz1ldi3oh29ofm4nz_image-header_pRow_1748768535000&quality=70" alt="">
+                    <h4>CHELSEA vs LOS ANGELES</h4>
+                    <h5>16/06 - - - 21:00</h5>
+                    <span class="grupo-span">GRUPO D</span>
+                </section>    
+                <section>
+                    <img src="https://image.discovery.indazn.com/ca/v2/ca/image?id=athwsdz4i5n9gnl1spqx3rzui_image-header_pUs_1748547089000&quality=70" alt="">
+                    <h4>BOCA JUNIORS vs BENFICA</h4>
+                    <h5>17/06 - - - 00:00</h5>
+                    <span class="grupo-span">GRUPO C</span>
+                </section>
+                <section>
+                    <img src="https://image.discovery.indazn.com/ca/v2/ca/image?id=1wdiaepq7b4lrzvl9rb1ikvqo_image-header_pUs_1748547616000&quality=50" alt="">
+                    <h4>FLAMENGO vs TUNIS</h4>
+                    <h5>17/06 - - - 03:00</h5>
+                    <span class="grupo-span">GRUPO D</span>        
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <h2>&copy; Esta es una web personal de pruebas realizada por GGalba durante su aprendizaje de lenguaje HTML, CSS y JS. Sin fines comerciales</h2>
+    </footer>
+</body>    
+</html>
